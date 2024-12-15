@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'io.javabrains'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.projectreactor:reactor-core:3.4.14'
+}
+
+java {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
